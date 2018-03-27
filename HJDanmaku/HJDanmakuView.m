@@ -302,7 +302,6 @@ static inline void onGlobalThreadAsync(void (^block)()) {
     CGRect _renderBounds;
 }
 
-@property (nonatomic, strong) HJDanmakuConfiguration *configuration;
 @property (nonatomic, assign) NSUInteger toleranceCount;
 
 @property (nonatomic, strong) HJDanmakuSource *danmakuSource;

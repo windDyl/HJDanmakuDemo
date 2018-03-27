@@ -40,7 +40,7 @@
 @property (nonatomic, weak) id <HJDanmakuViewDateSource> dataSource;
 @property (nonatomic, weak) id <HJDanmakuViewDelegate> delegate;
 
-@property (readonly) HJDanmakuConfiguration *configuration;
+@property (nonatomic,strong) HJDanmakuConfiguration *configuration;
 @property (readonly) BOOL isPrepared;
 @property (readonly) BOOL isPlaying;
 

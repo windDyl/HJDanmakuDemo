@@ -217,7 +217,7 @@
 				TargetAttributes = {
 					A0008CA11AB19AFC009550D7 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = Z3HFL97CNG;
+						DevelopmentTeam = P8HT367G9J;
 					};
 				};
 			};
@@ -428,7 +428,7 @@
 			baseConfigurationReference = A3076196508C4ABC78FC3BAA /* Pods-HJDanmakuDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z3HFL97CNG;
+				DEVELOPMENT_TEAM = P8HT367G9J;
 				INFOPLIST_FILE = HJDanmakuDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -446,7 +446,7 @@
 			baseConfigurationReference = 98B0E2E9F0CB5A3A37788DB8 /* Pods-HJDanmakuDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z3HFL97CNG;
+				DEVELOPMENT_TEAM = P8HT367G9J;
 				INFOPLIST_FILE = HJDanmakuDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

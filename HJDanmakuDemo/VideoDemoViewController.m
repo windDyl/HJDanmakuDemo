@@ -139,9 +139,9 @@
         cell.layer.borderWidth = 0.5;
         cell.layer.borderColor = [UIColor redColor].CGColor;
     }
-    cell.textLabel.font = model.textFont;
-    cell.textLabel.textColor = model.textColor;
-    cell.textLabel.text = model.text;
+//    cell.textLabel.font = model.textFont;
+//    cell.textLabel.textColor = model.textColor;
+//    cell.textLabel.text = model.text;
     return cell;
 }
 

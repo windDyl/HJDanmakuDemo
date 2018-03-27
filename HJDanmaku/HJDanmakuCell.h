@@ -19,8 +19,6 @@ typedef NS_ENUM(NSInteger, HJDanmakuCellSelectionStyle) {
 
 @property (nonatomic) HJDanmakuCellSelectionStyle selectionStyle; // default is HJDanmakuCellSelectionStyleNone.
 
-@property (nonatomic, readonly) UILabel *textLabel;
-
 @property (nonatomic, readonly) NSString *reuseIdentifier;
 
 - (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier;

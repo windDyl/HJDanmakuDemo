@@ -145,7 +145,7 @@
 }
 
 - (void)danmakuView:(HJDanmakuView *)danmakuView didSelectCell:(HJDanmakuCell *)cell danmaku:(HJDanmakuModel *)danmaku {
-    NSLog(@"select=> %@", cell.textLabel.text);
+//    NSLog(@"select=> %@", cell.textLabel.text);
 }
 
 #pragma mark - dataSource
@@ -165,9 +165,9 @@
         cell.layer.borderWidth = 0.5;
         cell.layer.borderColor = [UIColor redColor].CGColor;
     }
-    cell.textLabel.font = model.textFont;
-    cell.textLabel.textColor = model.textColor;
-    cell.textLabel.text = model.text;
+//    cell.textLabel.font = model.textFont;
+//    cell.textLabel.textColor = model.textColor;
+//    cell.textLabel.text = model.text;
     return cell;
 }
 

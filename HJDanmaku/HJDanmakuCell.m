@@ -10,7 +10,6 @@
 
 @interface HJDanmakuCell ()
 
-@property (nonatomic, strong) UILabel *textLabel;
 @property (nonatomic, strong) NSString *reuseIdentifier;
 
 @end
@@ -26,15 +25,6 @@
 
 - (void)prepareForReuse {
     
-}
-
-- (UILabel *)textLabel {
-    if (!_textLabel) {
-        _textLabel = [[UILabel alloc] initWithFrame:self.bounds];
-        _textLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        [self addSubview:_textLabel];
-    }
-    return _textLabel;
 }
 
 @end
